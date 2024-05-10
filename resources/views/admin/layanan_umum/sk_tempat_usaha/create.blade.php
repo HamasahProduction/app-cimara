@@ -22,7 +22,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Nomor Surat<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <input type="text" name="name" maxlength="255" minlength="5"
@@ -36,7 +36,7 @@
                                     </div>
                                 </div>
                                 
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Asal Surat<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <input type="text" name="city" maxlength="255" minlength="5"
@@ -49,7 +49,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Tanggal Surat<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <input type="date" name="city" maxlength="255" minlength="5"
@@ -62,7 +62,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Perihal<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <input type="text" name="perihal" maxlength="255" minlength="5"
@@ -75,7 +75,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Jenis Surat <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -97,7 +97,7 @@
                                
                             </div>
                             <div class="col-lg-6">
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Tanggal Terima Disposisi<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <input type="date" name="city" maxlength="255" minlength="5"
@@ -110,7 +110,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Tanda Terima<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <input type="text" name="perihal" maxlength="255" minlength="5"
@@ -123,7 +123,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Tanggal Diteruskan<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <input type="date" name="city" maxlength="255" minlength="5"
@@ -136,7 +136,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Diteruskan Kepada<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <input type="text" name="perihal" maxlength="255" minlength="5"

@@ -20,30 +20,8 @@
                 <div class="card-body">
                     <form action="" method="get">
                         <div class="row filter-row">
-                            {{-- <div class="col-md-3">
-                                <div class="form-group form-group form-focus select-focus focused">
-                                    <select class="select2 col-lg-12 form-control" name="province_id" id="province_id">
-                                        <option selected disabled>Pilih Provinsi</option>
-                                        @foreach ($province as $item)
-                                            <option value="{{ $item->id }}">{{ $item->name }}
-                                            </option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="form-group form-group form-focus select-focus focused">
-                                    <select class="select2 col-lg-12 form-control" name="kab_id" id="kab_id">
-                                        <option selected disabled>Pilih Kabupaten</option>
-                                        @foreach ($kabupaten as $item)
-                                            <option value="{{ $item->id }}">{{ $item->name }}
-                                            </option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                            </div> --}}
                             <div class="col-md-6">
-                                <div class="form-group form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <select class="select2 col-lg-12 form-control" name="kode" id="kode">
                                         <option selected disabled>Pilih Kecamatan</option>
                                         @foreach ($kecamatan as $item)

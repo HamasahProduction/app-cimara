@@ -29,14 +29,14 @@
                     <form action="" method="get">
                         <div class="row filter-row">
                             <div class="col-md-2">
-                                <div class="form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <input type="date" class="form-control" name="startdate" value="{{ $startdate }}"
                                         id="start-date">
                                     <label class="focus-label">Tanggal Awal </label>
                                 </div>
                             </div>
                             <div class="col-md-2">
-                                <div class="form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <input type="date" class="form-control" name="enddate" value="{{ $enddate }}"
                                         id="end-date">
                                     <label class="focus-label">Tanggal Akhir </label>
@@ -69,7 +69,6 @@
                                             <th>Nama</th>
                                             <th>Orang Tua</th>
                                             <th>Tanggal Lahir</th>
-                                            {{-- <th>Status Surat</th> --}}
                                             <th>Print</th>
                                             <th>Aksi</th>
                                         </tr>
@@ -99,23 +98,6 @@
                                                     </strong>
                                                 </td>
                                                 <td>{{ Carbon\Carbon::parse($kelahiran->tgl_lahir)->isoFormat('D MMMM Y') }}</td>
-                                                {{-- <td>
-                                                    @if ($kelahiran->is_cetak == true)
-                                                        <button type="button"
-                                                            data-action="{{ route('app.admin.surat.skk.update.batalcetak', $kelahiran->id) }}"
-                                                            data-id="{{ $kelahiran->id }}"
-                                                            class="btn btn-success btn-sm btn-cetak">
-                                                            Sudah Cetak
-                                                        </button>
-                                                    @else
-                                                        <button type="button"
-                                                            data-action="{{ route('app.admin.surat.skk.update.cetak', $kelahiran->id) }}"
-                                                            data-id="{{ $kelahiran->id }}"
-                                                            class="btn btn-danger btn-sm btn-update-cetak">
-                                                            Belum Cetak
-                                                        </button>
-                                                    @endif
-                                                </td> --}}
                                                
                                                 <td>
                                                     <div class="btn-group">
@@ -129,15 +111,6 @@
                                                                 data-url="{{ route('app.admin.surat.skk.cetak') }}">Sekertaris Desa</a>
                                                         </div>
                                                     </div>
-
-                                                    {{-- <button data-id="{{ $kelahiran->no_urut_surat }}"
-                                                        data-url="{{ route('app.admin.surat.skk.cetak') }}"
-                                                        class="btn btn-warning btn-sm me-2 btn-cetak-kades "><i
-                                                            class="fa fa-print"></i> Kepala Desa</button>
-                                                    <button data-id="{{ $kelahiran->no_urut_surat }}"
-                                                        data-url="{{ route('app.admin.surat.skk.cetak') }}"
-                                                        class="btn btn-primary btn-sm me-2 btn-cetak-an "><i
-                                                            class="fa fa-print"></i> Sekdes</button> --}}
                                                 </td>
                                                 <td>
                                                     <button type="button"

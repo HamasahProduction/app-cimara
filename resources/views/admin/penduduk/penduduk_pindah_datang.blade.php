@@ -22,12 +22,12 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <div class="col-lg-12">
                                         <small class="text-muted">DATA DAERAH ASAL :</small>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Nomor Kartu Keluarga<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -41,7 +41,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Nama Lengkap<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -55,7 +55,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Dusun<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -71,7 +71,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <div class="form-group row">
+                                        <div class="input-block row">
                                             <label class="col-lg-6 col-form-label">RT<span
                                                     class="text-danger">*</span></label>
                                             <div class="col-lg-6">
@@ -87,7 +87,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <div class="form-group row">
+                                        <div class="input-block row">
                                             <label class="col-lg-3 col-form-label">RW<span
                                                     class="text-danger">*</span></label>
                                             <div class="col-lg-9">
@@ -105,7 +105,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-7    ">
-                                        <div class="form-group row">
+                                        <div class="input-block row">
                                             <label class="col-lg-5 col-form-label">Telpon / No HP<span
                                                     class="text-danger">*</span></label>
                                             <div class="col-lg-7">
@@ -121,7 +121,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-5">
-                                        <div class="form-group row">
+                                        <div class="input-block row">
                                             <label class="col-lg-4 col-form-label">Kode Pos<span
                                                     class="text-danger">*</span></label>
                                             <div class="col-lg-8">
@@ -137,7 +137,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Provinsi <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -156,7 +156,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Kab. / Kota <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -173,7 +173,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Kecamatan <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -190,7 +190,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Desa / Kelurahan <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -209,7 +209,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <div class="form-group row">
+                                        <div class="input-block row">
                                             <label class="col-lg-6 col-form-label">Tanggal Pindah<span
                                                     class="text-danger">*</span></label>
                                             <div class="col-lg-6">
@@ -226,7 +226,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <div class="form-group row">
+                                        <div class="input-block row">
                                             <label class="col-lg-4 col-form-label">Nama Pemohon<span
                                                     class="text-danger">*</span></label>
                                             <div class="col-lg-8">
@@ -244,12 +244,12 @@
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <div class="col-lg-12">
                                         <small class="text-muted">DATA KEPINDAHAN :</small>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Alasan Pindah <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -269,7 +269,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Klasifikasi Pindah <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -289,7 +289,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Jenis Kepindahan <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -308,7 +308,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Status KK Tidak Pindah <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -328,7 +328,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Status KK Yang Pindah <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -348,12 +348,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <div class="col-lg-12">
                                         <small class="text-muted">SILAHKAN PILIH ALAMAT TUJUAN PINDAH :</small>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Provinsi <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -372,7 +372,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Kab. / Kota <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -390,7 +390,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Kecamatan <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -407,7 +407,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Desa / Kelurahan <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">

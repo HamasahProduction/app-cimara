@@ -22,7 +22,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Nama<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <input type="text" name="name" maxlength="255" minlength="5"
@@ -36,7 +36,7 @@
                                     </div>
                                 </div>
                                 
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Kota<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <input type="text" name="city" maxlength="255" minlength="5"
@@ -49,7 +49,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Alamat<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <input type="text" name="address" maxlength="255" minlength="5"
@@ -62,7 +62,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Kontak<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <input type="text" name="phone" maxlength="255" minlength="5"
@@ -78,7 +78,7 @@
                                
                             </div>
                             <div class="col-lg-6">
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Perwakilan <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -97,7 +97,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Paket <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -114,7 +114,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Status <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">

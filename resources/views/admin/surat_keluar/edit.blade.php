@@ -23,12 +23,12 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <div class="col-lg-12">
                                         <small class="text-muted">DATA SURAT :</small>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Nomor Surat<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -42,7 +42,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Instansi Tujuan<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -56,7 +56,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Perihal<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -70,7 +70,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Tanggal Surat<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -84,7 +84,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Tanggal Keluar Surat<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -98,7 +98,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Deskripsi Surat<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <textarea name="deskripsi_surat" maxlength="255" minlength="5" class="form-control @error('deskripsi_surat') is-invalid @enderror"
@@ -115,7 +115,7 @@
                             <div class="col-lg-6">
                                 <iframe id="fileurl" src="{{ asset('storage/'.$surat->file) }}" width="100%" height="450px">
                                 </iframe>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">File Surat<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">

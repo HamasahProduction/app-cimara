@@ -26,7 +26,7 @@
                     <form action="" method="get">
                         <div class="row filter-row">
                             <div class="col-md-2">
-                                <div class="form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <input type="date" class="form-control" name="tgl_publish"
                                         value="{{ old('tgl_publish', request('tgl_publish', $tgl_publish)) }}">
                                     <label class="focus-label">Tanggal Publish </label>

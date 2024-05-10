@@ -26,7 +26,7 @@
                     <form action="" method="get">
                         <div class="row filter-row">
                             <div class="col-md-2">
-                                <div class="form-group ">
+                                <div class="input-block">
                                     <select class="select floating " name="jk" id="jk">
                                         <option selected disabled>Jenis Kelamin</option>
                                         <option value="">--Jenis Kelamin--</option>
@@ -38,7 +38,7 @@
                                 </div>
                             </div>
                             <div class="col-md-2">
-                                <div class="form-group ">
+                                <div class="input-block">
                                     <select class="select floating " name="dusun" id="dusun">
                                         <option selected disabled>Pilih Dusun</option>
                                         <option value="">--Pilih Dusun--</option>

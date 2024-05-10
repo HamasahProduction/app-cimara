@@ -26,7 +26,7 @@
                     <form action="" method="get">
                         <div class="row filter-row">
                             <div class="col-md-2">
-                                <div class="form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <input type="date" class="form-control" name="tgl_surat"
                                         value="{{ old('tgl_surat', request('tgl_surat', $tgl_surat)) }}">
                                     <label class="focus-label">Tanggal Surat </label>

@@ -21,14 +21,14 @@
                     <form action="" method="get">
                         <div class="row filter-row">
                             <div class="col-md-2">
-                                <div class="form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <input type="date" class="form-control" name="start"
                                         value="{{ old('start', request('start', $start)) }}">
                                     <label class="focus-label">Tanggal Mulai </label>
                                 </div>
                             </div>
                             <div class="col-md-2">
-                                <div class="form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <input type="date" class="form-control" name="finish"
                                         value="{{ old('finish', request('finish', $finish)) }}">
                                     <label class="focus-label">Tanggal Selesai </label>
@@ -36,7 +36,7 @@
                             </div>
 
                             <div class="col-md-3">
-                                <div class="form-group ">
+                                <div class="input-block ">
                                     <select class="select " name="status" id="status">
                                         <option selected disabled>Status Permohonan</option>
                                         <option value="">--Semua Status--</option>

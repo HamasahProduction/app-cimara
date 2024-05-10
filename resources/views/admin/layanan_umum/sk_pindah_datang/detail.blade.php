@@ -53,7 +53,7 @@
                                 <div class="profile-basic">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <div class="form-group row">
+                                            <div class="input-block row">
                                                 <div class="col-lg-12">
                                                     <small class="text-muted">DATA DAERAH ASAL :</small>
                                                 </div>
@@ -128,7 +128,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <ul class="personal-info mt-2">
-                                                <div class="form-group row">
+                                                <div class="input-block row">
                                                     <div class="col-lg-12">
                                                         <small class="text-muted">DATA KEPINDAHAN :</small>
                                                     </div>
@@ -205,7 +205,7 @@
                     </div>
                     <div class="row">
                         <div class="card-header">
-                            <div class="form-group">
+                            <div class="input-block">
                                 <div class="col-lg-12">
                                     <h4>Daftar Penduduk Pindah</h4>
                                 </div>

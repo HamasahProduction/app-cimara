@@ -21,7 +21,7 @@
                     @csrf
                     <div class="card-body">
                         <div class="row">
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Nama Dusun<span class="text-danger">*</span></label>
                                 <div class="col-lg-9">
                                     <input type="text" name="nama_dusun" maxlength="255" minlength="5"

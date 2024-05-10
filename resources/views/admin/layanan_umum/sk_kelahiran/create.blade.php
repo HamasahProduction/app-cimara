@@ -22,12 +22,12 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <div class="col-lg-12">
                                         <small class="text-muted">DATA KELAHIRAN :</small>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">NIK<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <input type="text" name="nik" maxlength="255" minlength="16" required
@@ -40,7 +40,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Nama Lengkap<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -54,7 +54,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Tempat Lahir<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -68,7 +68,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">TGL Lahir<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -83,7 +83,7 @@
                                     </div>
                                 </div>
 
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Jenis Kelamin<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -103,7 +103,7 @@
                                     </div>
                                 </div>
 
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Agama<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <select class="select2 regency form-control @error('agama') is-invalid @enderror"
@@ -124,7 +124,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Alamat <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -147,30 +147,12 @@
                             </div>
 
                             <div class="col-lg-6">
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <div class="col-lg-12">
                                         <small class="text-muted">DATA ORANGTUA :</small>
                                     </div>
                                 </div>
-                                {{-- <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label">Jenis Pernikahan<span
-                                            class="text-danger">*</span></label>
-                                    <div class="col-lg-9">
-                                        <select
-                                            class="select2 regency form-control @error('jenis_pernikahan') is-invalid @enderror"
-                                            required name="jenis_pernikahan" id="jenis_pernikahan"
-                                            value="{{ old('jenis_pernikahan') }}">
-                                            <option value="baru_menikah">Baru Menikah</option>
-                                            <option value="sudah_berkeluarga">Sudah Berkeluarga</option>
-                                        </select>
-                                        <div class="invalid-feedback">
-                                            @error('jenis_pernikahan')
-                                                {{ $message }}
-                                            @enderror
-                                        </div>
-                                    </div>
-                                </div> --}}
-                                <div class="form-group row" id="suami">
+                                <div class="input-block row" id="suami">
                                     <label class="col-lg-3 col-form-label">NIK AYAH <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -190,7 +172,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row" id="istri">
+                                <div class="input-block row" id="istri">
                                     <label class="col-lg-3 col-form-label">NIK IBU <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">

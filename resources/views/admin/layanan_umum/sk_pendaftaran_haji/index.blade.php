@@ -26,7 +26,7 @@
                     <form action="" method="get">
                         <div class="row filter-row">
                             <div class="col-md-2">
-                                <div class="form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <input type="date" class="form-control" name="tgl_surat"
                                         value="{{ old('tgl_surat', request('tgl_surat', $tgl_surat)) }}">
                                     <label class="focus-label">Tanggal Surat </label>
@@ -119,14 +119,6 @@
                                                                 data-url="{{ route('app.admin.surat.skph.cetak') }}">Sekertaris Desa</a>
                                                         </div>
                                                     </div>
-                                                    {{-- <button data-id="{{ $pemohon->no_urut_surat }}"
-                                                        data-url="{{ route('app.admin.surat.skph.cetak') }}"
-                                                        class="btn btn-warning btn-sm me-2 btn-cetak-kades "><i
-                                                            class="fa fa-print"></i> Kepala Desa</button>
-                                                    <button data-id="{{ $pemohon->no_urut_surat }}"
-                                                        data-url="{{ route('app.admin.surat.skph.cetak') }}"
-                                                        class="btn btn-primary btn-sm me-2 btn-cetak-an "><i
-                                                            class="fa fa-print"></i> Sekdes</button> --}}
                                                 </td>
                                                 <td>
                                                     <a href="{{ route('app.admin.surat.skph.edit', $pemohon->id) }}"

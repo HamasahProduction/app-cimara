@@ -22,12 +22,12 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <div class="col-lg-12">
                                         <small class="text-muted">DATA KELAHIRAN :</small>
                                     </div>
                                 </div>
-                                <div class="form-group row" id="kepala_keluarga">
+                                <div class="input-block row" id="kepala_keluarga">
                                     <label class="col-lg-3 col-form-label">Kepala Keluarga <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -56,7 +56,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">NIK Baru<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <input type="text" name="nik" maxlength="255" minlength="16" required
@@ -69,7 +69,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Nama Lengkap<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -83,7 +83,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Tempat Lahir<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -97,7 +97,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">TGL Lahir<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -112,7 +112,7 @@
                                     </div>
                                 </div>
 
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Jenis Kelamin<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -132,7 +132,7 @@
                                     </div>
                                 </div>
 
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Agama<span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <select class="select2 regency form-control @error('agama') is-invalid @enderror"
@@ -153,7 +153,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Alamat <span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -174,55 +174,6 @@
                                     </div>
                                 </div>
                             </div>
-
-                            {{-- <div class="col-lg-6">
-                                <div class="form-group row">
-                                    <div class="col-lg-12">
-                                        <small class="text-muted">DATA ORANGTUA :</small>
-                                    </div>
-                                </div>
-                                
-                                <div class="form-group row" id="suami">
-                                    <label class="col-lg-3 col-form-label">NIK AYAH <span
-                                            class="text-danger">*</span></label>
-                                    <div class="col-lg-9">
-                                        <select name="nik_ayah" id="nik_ayah"
-                                            class="select2 province form-control @error('nik_ayah') is-invalid @enderror"
-                                            value="{{ old('nik_ayah') }}">
-                                            <option selected disabled>--Pilih NIK Penduduk--</option>
-                                            @foreach ($penduduks->where('jenis_kelamin','L') as $penduduk)
-                                                <option value="{{ $penduduk->nik }}">( {{ $penduduk->nik }} ) |
-                                                    {{ $penduduk->nama_lengkap }}</option>
-                                            @endforeach
-                                        </select>
-                                        <div class="invalid-feedback">
-                                            @error('nik_ayah')
-                                                {{ $message }}
-                                            @enderror
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group row" id="istri">
-                                    <label class="col-lg-3 col-form-label">NIK IBU <span
-                                            class="text-danger">*</span></label>
-                                    <div class="col-lg-9">
-                                        <select name="nik_ibu" id="nik_ibu"
-                                            class="select2 province form-control @error('nik_ibu') is-invalid @enderror"
-                                            value="{{ old('nik_ibu') }}">
-                                            <option selected disabled>--Pilih NIK Penduduk--</option>
-                                            @foreach ($penduduks->where('jenis_kelamin','P') as $penduduk)
-                                                <option value="{{ $penduduk->nik }}">( {{ $penduduk->nik }} ) |
-                                                    {{ $penduduk->nama_lengkap }} </option>
-                                            @endforeach
-                                        </select>
-                                        <div class="invalid-feedback">
-                                            @error('nik_ibu')
-                                                {{ $message }}
-                                            @enderror
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> --}}
                         </div>
                     </div>
                     <div class="card-footer text-end">

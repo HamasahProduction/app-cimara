@@ -22,7 +22,7 @@
                     @method('PUT')
                     <div class="card-body">
                         <div class="row">
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-5 col-form-label">NIP<span class="text-danger">*</span></label>
                                 <div class="col-lg-7">
                                     <input type="text" name="nip" maxlength="255" minlength="5"
@@ -35,7 +35,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-5 col-form-label">Nama Lengkap<span class="text-danger">*</span></label>
                                 <div class="col-lg-7">
                                     <input type="text" name="nama" maxlength="255" minlength="3"
@@ -49,7 +49,7 @@
                                 </div>
                             </div>
                             
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-5 col-form-label">Jabatan<span class="text-danger">*</span></label>
                                 <div class="col-lg-7">
                                     <input type="text" name="jabatan" maxlength="255" minlength="5"

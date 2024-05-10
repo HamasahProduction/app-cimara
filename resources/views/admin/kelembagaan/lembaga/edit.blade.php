@@ -21,7 +21,7 @@
                     @csrf
                     @method('PUT')
                     <div class="card-body">
-                        <div class="form-group row">
+                        <div class="input-block row">
                             <label class="col-lg-3 col-form-label">Nama Lembaga<span
                                     class="text-danger">*</span></label>
                             <div class="col-lg-9">
@@ -35,7 +35,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group row">
+                        <div class="input-block row">
                             <label class="col-lg-3 col-form-label">Logo Lem baga<span class="text-danger">*</span></label>
                             <div class="col-lg-9">
                                 <div class="col-lg-12 mb-2">

@@ -21,7 +21,7 @@
                     @csrf
                     <div class="card-body">
                         <div class="row">
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-5 col-form-label">Judul Surat<span class="text-danger">*</span></label>
                                 <div class="col-lg-7">
                                     <input type="text" name="judul_surat" maxlength="255" minlength="5"
@@ -34,7 +34,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-5 col-form-label">Kode Surat<span class="text-danger">*</span></label>
                                 <div class="col-lg-7">
                                     <input type="text" name="kode_surat" maxlength="255" minlength="3"
@@ -47,7 +47,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-5 col-form-label">Nomor Surat<span class="text-danger">*</span></label>
                                 <div class="col-lg-7">
                                     <input type="text" name="nomor_surat" maxlength="255" minlength="3"
@@ -61,7 +61,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-5 col-form-label">Yang Bertandatangan <span
                                         class="text-danger">*</span></label>
                                 <div class="col-lg-7">

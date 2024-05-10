@@ -23,7 +23,7 @@
                         <div class="row filter-row">
 
                             <div class="col-md-3">
-                                <div class="form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <select class="select floating select2-hidden-accessible" name="status" id="status">
                                         <option selected disabled>Status Peraturan</option>
                                         <option value="">--Semua Status--</option>
@@ -34,7 +34,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3">
-                                <div class="form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <select class="select floating select2-hidden-accessible" name="jenis_peraturan" id="jenis_peraturan">
                                         <option selected disabled>Jenis Peraturan</option>
                                         <option value="">--Semua--</option>
@@ -46,7 +46,7 @@
                                 </div>
                             </div>
                             <div class="col-md-2">
-                                <div class="form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <select class="select floating select2-hidden-accessible" name="tahun" id="tahun">
                                         <option selected disabled>Tahun</option>
                                         <option value="">--Pilih Tahun--</option>

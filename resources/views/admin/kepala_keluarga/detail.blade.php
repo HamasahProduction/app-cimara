@@ -134,25 +134,6 @@
                                                                     {{ $kk->penduduk->nama_ibu ?? '-' }}
                                                                 </div>
                                                             </li>
-
-                                                            {{-- <li>
-                                                                <div class="title">Status Dalam Keluarga
-                                                                </div>
-                                                                <div class="text">
-                                                                    <ol>
-                                                                        @if ($kk->penduduk->is_kepala_keluarga == 1)
-                                                                            <li>KEPALA KELUARGA</li>
-                                                                        @else
-                                                                            @if ($kk->penduduk->is_keluarga == 1)
-                                                                                <li>ANGGOTA KELUARGA</li>
-                                                                            @else
-                                                                                <li>TIDAK PUNYA KELUARGA</li>
-                                                                            @endif
-                                                                        @endif
-                                                                    </ol>
-                                                                </div>
-                                                            </li> --}}
-
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -176,7 +157,7 @@
         <div class="col-sm-12">
             <div class="card">
                 <div class="card-header">
-                    <div class="form-group">
+                    <div class="input-block">
                         <div class="col-lg-12">
                             <h4>Daftar Anggota Keluarga</h4>
                         </div>
@@ -195,7 +176,7 @@
                                     <div class="row">
                                         <input type="hidden" name="id_kepala_keluarga" value="{{ $kk->nik }}">
                                         <div class="col-lg-12">
-                                            <div class="form-group row">
+                                            <div class="input-block row">
                                                 <label class="col-lg-12 col-form-label">Pilih Penduduk <span
                                                         class="text-danger">*</span></label>
                                                 <div class="col-lg-12">
@@ -221,7 +202,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
-                                            <div class="form-group row">
+                                            <div class="input-block row">
                                                 <label class="col-lg-12 col-form-label">Pilih Hubungan Keluarg <span
                                                         class="text-danger">*</span></label>
                                                 <div class="col-lg-12">
@@ -243,7 +224,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
-                                            <div class="form-group row">
+                                            <div class="input-block row">
                                                 <label class="col-lg-12 col-form-label">Nama Ayah<span
                                                         class="text-danger">*</span></label>
                                                 <div class="col-lg-12">
@@ -260,7 +241,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
-                                            <div class="form-group row">
+                                            <div class="input-block row">
                                                 <label class="col-lg-12 col-form-label">Nama Ibu<span
                                                         class="text-danger">*</span></label>
                                                 <div class="col-lg-12">

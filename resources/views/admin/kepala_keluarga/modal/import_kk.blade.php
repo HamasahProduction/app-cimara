@@ -9,7 +9,7 @@
             <form action="{{ route('app.admin.kepala_keluarga.import') }}" method="POST" enctype="multipart/form-data" id="importForm">
                 @csrf
                 <div class="modal-body">
-                    <div class="form-group row">
+                    <div class="input-block row">
                         <label class="col-lg-12 col-form-label">Silahkan Import File<span class="text-danger">*</span></label>
                         <div class="col-lg-12">
                             <input type="file" name="file" required class="form-control @error('file') is-invalid @enderror" value="{{ old('file') }}">

@@ -23,12 +23,12 @@
                     @method('PUT')
                     <div class="card-body">
                         <div class="row">
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <div class="col-lg-12">
                                     <small class="text-muted"> <strong>FORM PENDUDUK TERDAFTAR:</strong></small>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Masukan NIK Penduduk <span
                                         class="text-danger">*</span></label>
                                 <div class="col-lg-9">
@@ -49,7 +49,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Kepentingan<span class="text-danger">*</span></label>
                                 <div class="col-lg-9">
                                     <input type="text" name="kepentingan" maxlength="255" minlength="5"
@@ -62,7 +62,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Provinsi <span class="text-danger">*</span></label>
                                 <div class="col-lg-9">
                                     <select required name="province_id" id="province_id"
@@ -82,7 +82,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Kab. / Kota <span
                                         class="text-danger">*</span></label>
                                 <div class="col-lg-9">
@@ -102,7 +102,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Kecamatan <span class="text-danger">*</span></label>
                                 <div class="col-lg-9">
                                     <select required name="district_id" id="district_id"
@@ -122,7 +122,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Desa <span class="text-danger">*</span></label>
                                 <div class="col-lg-9">
                                     <select required name="village_id" id="village_id"
@@ -142,7 +142,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Tanggal Surat<span
                                         class="text-danger">*</span></label>
                                 <div class="col-lg-9">

@@ -21,7 +21,7 @@
                     enctype="multipart/form-data">
                     @csrf
                     <div class="card-body">
-                        <div class="form-group row">
+                        <div class="input-block row">
                             <label class="col-lg-3 col-form-label">Kepala Keluarga<span class="text-danger">*</span></label>
                             <div class="col-lg-9">
                                 <select name="kk_id" id="kkSelected"
@@ -39,7 +39,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group row">
+                        <div class="input-block row">
                             <label class="col-lg-3 col-form-label">Penghasilan<span class="text-danger">*</span></label>
                             <div class="col-lg-9">
                                 <input type="text" name="penghasilan" maxlength="255" minlength="5" id="penghasilan"
@@ -53,7 +53,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group row">
+                        <div class="input-block row">
                             <label class="col-lg-3 col-form-label">Tujuan / Kepentingan<span class="text-danger">*</span></label>
                             <div class="col-lg-9">
                                 <textarea name="note" maxlength="255" minlength="5" class="form-control @error('note') is-invalid @enderror"
@@ -66,7 +66,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group row">
+                        <div class="input-block row">
                             <label class="col-lg-3 col-form-label">Tanggal Surat<span
                                     class="text-danger">*</span></label>
                             <div class="col-lg-9">

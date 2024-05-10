@@ -20,14 +20,14 @@
                         <div class="row filter-row">
 
                             <div class="col-md-2">
-                                <div class="form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <input type="date" class="form-control" name="birthday"
                                         value="{{ old('birthday', request('birthday', $birthday)) }}">
                                     <label class="focus-label">Tanggal Lahir </label>
                                 </div>
                             </div>
                             <div class="col-md-2">
-                                <div class="form-group form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <select class="select2 col-lg-12" name="status" id="status">
                                         <option selected disabled>Status Penduduk</option>
                                         <option value="">--Semua Status--</option>
@@ -40,7 +40,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="form-group form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <select class="select2 col-lg-12" name="rt_id" id="rt_id">
                                         <option selected disabled>Pilih RT</option>
                                         @foreach ($rts as $item)

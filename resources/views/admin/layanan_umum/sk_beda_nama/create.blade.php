@@ -22,12 +22,12 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <div class="col-lg-12">
                                         <small class="text-muted">DATA PEMOHON :</small>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">NIK <span class="text-danger">*</span></label>
                                     <div class="col-lg-9">
                                         <select name="nik_pemohon" id="nik_pemohon" required
@@ -46,7 +46,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Dokumen Berbeda<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -60,7 +60,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Nama Berbeda<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -74,7 +74,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <label class="col-lg-3 col-form-label">Tanggal Surat<span
                                             class="text-danger">*</span></label>
                                     <div class="col-lg-9">
@@ -91,13 +91,13 @@
                             </div>
 
                             <div class="col-lg-6">
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <div class="col-lg-12">
                                         <small class="text-muted">DATA KESALAHAN NAMA :</small>
                                     </div>
                                 </div>
 
-                                <div class="form-group row">
+                                <div class="input-block row">
                                     <div class="col-lg-12">
                                         <small class="text-muted">Silahkan Tambahkan Data Kesalahan Beda Nama Dengan Cara Klik Tombol Tambah
                                             Warna Hijau:</small>

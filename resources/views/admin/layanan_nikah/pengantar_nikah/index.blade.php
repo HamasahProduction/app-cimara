@@ -26,7 +26,7 @@
                     <form action="" method="get">
                         <div class="row filter-row">
                             <div class="col-md-2">
-                                <div class="form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <select class="select floating select2-hidden-accessible" name="status" id="status">
                                         <option selected disabled>Status Penduduk</option>
                                         <option value="">--Semua Status--</option>

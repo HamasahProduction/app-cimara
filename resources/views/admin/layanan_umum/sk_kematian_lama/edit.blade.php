@@ -22,12 +22,12 @@
                     @method('PUT')
                     <div class="card-body">
                         <div class="row">
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <div class="col-lg-12">
                                     <small class="text-muted"> <strong>FORM PENDUDUK TERDAFTAR:</strong></small>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">NIK Penduduk <span
                                         class="text-danger">*</span></label>
                                 <div class="col-lg-9">
@@ -46,7 +46,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Hari Meninggal<span
                                         class="text-danger">*</span></label>
                                 <div class="col-lg-9">
@@ -60,7 +60,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Lokasi Meninggal<span
                                         class="text-danger">*</span></label>
                                 <div class="col-lg-9">
@@ -74,7 +74,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Penyebab Meninggal<span
                                         class="text-danger">*</span></label>
                                 <div class="col-lg-9">
@@ -88,7 +88,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Tanggal Meninggal<span
                                         class="text-danger">*</span></label>
                                 <div class="col-lg-9">
@@ -102,7 +102,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Tanggal Surat<span
                                         class="text-danger">*</span></label>
                                 <div class="col-lg-9">

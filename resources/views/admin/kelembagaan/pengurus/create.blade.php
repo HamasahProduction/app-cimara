@@ -21,7 +21,7 @@
                     @csrf
                     <div class="card-body">
                         <div class="row">
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">NIK Penduduk <span
                                         class="text-danger">*</span></label>
                                 <div class="col-lg-9">
@@ -40,7 +40,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Lembaga <span
                                         class="text-danger">*</span></label>
                                 <div class="col-lg-9">
@@ -59,7 +59,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Jabatan <span
                                         class="text-danger">*</span></label>
                                 <div class="col-lg-9">
@@ -78,7 +78,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="input-block row">
                                 <label class="col-lg-3 col-form-label">Tanggal Pengangkatan<span
                                         class="text-danger">*</span></label>
                                 <div class="col-lg-9">

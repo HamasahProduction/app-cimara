@@ -26,7 +26,7 @@
                     <form action="" method="get">
                         <div class="row filter-row">
                             <div class="col-md-2">
-                                <div class="form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <input type="date" class="form-control" name="tgl_surat"
                                         value="{{ old('tgl_surat', request('tgl_surat', $tgl_surat)) }}">
                                     <label class="focus-label">Tanggal Surat </label>
@@ -39,9 +39,6 @@
                                         onclick="javascript: form.action='{{ route('app.admin.surat-kuasa.index') }}';"
                                         class="btn btn-primary w-20 btn-sm ">Filter Data
                                     </button>
-                                    {{-- <button type="submit" target="_blank"
-                                        onclick="javascript: form.action='{{ route('app.admin.penduduk.export') }}';"
-                                        class="btn btn-success w-20 btn-sm">Download Data</button> --}}
 
                                 </div>
                             </div>

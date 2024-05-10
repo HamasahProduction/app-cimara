@@ -26,14 +26,14 @@
                     <form action="" method="get">
                         <div class="row filter-row">
                             <div class="col-md-2">
-                                <div class="form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <input type="date" class="form-control" name="startdate" value="{{ $startdate }}"
                                         id="start-date">
                                     <label class="focus-label">Tanggal Awal </label>
                                 </div>
                             </div>
                             <div class="col-md-2">
-                                <div class="form-group form-focus select-focus focused">
+                                <div class="input-block form-focus select-focus focused">
                                     <input type="date" class="form-control" name="enddate" value="{{ $enddate }}"
                                         id="end-date">
                                     <label class="focus-label">Tanggal Akhir </label>
